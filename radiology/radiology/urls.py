@@ -24,6 +24,6 @@ from django.views.generic import RedirectView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('tac/', include('tac.urls')),
-    path('', RedirectView.as_view(url='/tac/', permanent=True)),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
 
