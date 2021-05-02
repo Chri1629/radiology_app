@@ -1,21 +1,64 @@
+*{
+  font-family:'Roboto Mono', monospace;
+}
+
+body{
+  height: 100%;
+  background-color: rgb(32, 31, 27);
+}
+
+h1 {
+  color: white;
+  }
+
 h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-    color: red;
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: white;
+  }
+
+p{
+  color: white;
   }
 
 .navbar{
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 10px;
-
+  padding-left: 75px;
+  padding-right: 10px;
+  padding-top: 10px;
+  color: red;
   }
 
-body{
-    background-color: orange;
+a.navbar-brand {
+    color: white !important; 
+    padding-bottom: 10px;
+}
+
+.nav-item.nav-link{
+  color: white  !important;
+}
+
+.nav.nav-stacked{
+  background-color: rgb(32, 31, 27);
+  width: auto;
+  color: white;
+}
+
+
+img {
+  max-width: 70%;
+  height: auto;
+}
+
+.item {
+  width: 100px;
+  min-height: 100px;
+  max-height: auto;
+  float: left;
+  margin: 3px;
+  padding: 3px;
 }
