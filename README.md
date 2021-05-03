@@ -5,6 +5,7 @@ L'obiettivo dell'app (per ora) è quello di analizzare immagini TAC di polmoni p
 
 
 **CICLO DI VITA APP**
+
 La homepage deve permettere di:
 * caricare file di un *singolo paziente*
 * caricare file di *molteplici pazienti*
@@ -15,7 +16,7 @@ Il flusso operativo sarà dunque distinto per le due opzioni sopra elencate, poi
 
 In entrambe però, una volta arrivati ad avere l* immagin*, si farà previsione circa la presenza di COVID-19. 
 Nel caso di un singolo paziente verrà quindi restitutita la confidenza di positività; mentre nel caso multi-paziente si restituirà: 
-- tabella di con confidenza di positività
+- tabella con confidenze di positività
 - percentuale di positività
 
 **N.B.** Questo è solamente il funzionamento di una prima versione dell'app. 
