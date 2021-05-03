@@ -14,7 +14,7 @@ Il flusso operativo sarà dunque distinto per le due opzioni sopra elencate, poi
 * nel secondo questo sarà il più automatico possibile, dunque cercando di evitare il più possibile l'intervento da parte del medico, (*iter notebook "nascosto"*). 
 
 In entrambe però, una volta arrivati ad avere l* immagin*, si farà previsione circa la presenza di COVID-19. 
-Nel caso di un singolo paziente quindi verrà restitutita la confidenza di positività, mentre invece nel caso multi-paziente, si ritornerà: 
+Nel caso di un singolo paziente verrà quindi restitutita la confidenza di positività; mentre nel caso multi-paziente si restituirà: 
 - tabella di con confidenza di positività
 - percentuale di positività
 
