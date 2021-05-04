@@ -21,6 +21,16 @@ Nel caso di un singolo paziente verrà quindi restitutita la confidenza di posit
 
 **N.B.** Questo è solamente il funzionamento di una prima versione dell'app. 
 
+## ESECUZIONE
 
+Per eseguire consiglio di installare prima un ambiente virtuale con:
 
+``` virtualenv nome_env ```
 
+Successivamente installare tutte le dipendenze con:
+
+``` pip install -r requirements.txt ```
+
+Successivamente per lanciare il server di sviluppo entrare nella directory **radiology** e lanciare:
+
+``` python manage.py runserver ```
