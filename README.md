@@ -34,3 +34,5 @@ Successivamente installare tutte le dipendenze con:
 Successivamente per lanciare il server di sviluppo entrare nella directory **radiology** e lanciare:
 
 ``` python manage.py runserver ```
+
+prova
