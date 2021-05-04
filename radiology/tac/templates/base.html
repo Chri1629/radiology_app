@@ -15,14 +15,14 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="#">Radiology</a>
+    <a class="navbar-brand" href="{% url 'home' %}">Radiology</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Features</a>
+        <a class="nav-item nav-link active" href="{% url 'index' %}">Index <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="{% url 'about' %}">About</a>
       </div>
     </div>
 </nav>
@@ -35,8 +35,9 @@
             <div class="col">      
                 <div class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
                     <ul data-spy="affix" data-offset-top="120" id="affix" class="nav nav-stacked">
-                      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                      <a class="nav-item nav-link" href="#">Features</a>
+                      <a class="nav-item nav-link active" href="{% url 'upload' %}">Import <span class="sr-only">(current)</span></a>
+                      <a class="nav-item nav-link" href="{% url 'features' %}">Features</a>
+                      <a class="nav-item nav-link" href="{% url 'results' %}">Results</a>
                     </ul>
                 </div>
           
@@ -44,7 +45,6 @@
             
 
             <div class="col-10">
-              <h2>Ciao</h2>
                 {% block content%}
                 {% endblock %}
             </div>
@@ -57,40 +57,6 @@
           <!-- Section: Social media -->
           <section class="mb-4">
             <!-- Facebook -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-white m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="white"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-      
-            <!-- Twitter -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-white m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="white"
-              ><i class="fab fa-twitter"></i
-            ></a>
-      
-            <!-- Google -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-white m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="white"
-              ><i class="fab fa-google"></i
-            ></a>
-      
-            <!-- Instagram -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-white m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="white"
-              ><i class="fab fa-instagram"></i
-            ></a>
       
             <!-- Linkedin -->
             <a
@@ -103,7 +69,7 @@
             <!-- Github -->
             <a
               class="btn btn-link btn-floating btn-lg text-white m-1"
-              href="#!"
+              href="https://github.com/Chri1629/radiology_app.git"
               role="button"
               data-mdb-ripple-color="white"
               ><i class="fab fa-github"></i
@@ -116,7 +82,7 @@
         <!-- Copyright -->
         <div class="text-center text-white p-3" style="background-color: rgb(32, 31, 27);">
           © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">radiology-app.com</a>
+          <a class="text-white" href="{% url 'home' %}">radiology-app.com</a>
         </div>
         <!-- Copyright -->
       </footer>
