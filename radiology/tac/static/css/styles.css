@@ -39,7 +39,7 @@ a.navbar-brand {
 }
 
 .nav-item.nav-link{
-  color: white  !important;
+  color: rgb(255, 255, 255)  !important;
 }
 
 .nav.nav-stacked{
@@ -61,4 +61,9 @@ img {
   float: left;
   margin: 3px;
   padding: 3px;
+}
+
+.save.btn.btn-default{
+  background-color: rgb(61, 60, 60);
+  color:aquamarine;
 }
